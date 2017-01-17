@@ -1,0 +1,22 @@
+{
+    "name": "demmonico/yii2-fakecontroller",
+    "type": "yii2-extension",
+    "description": "Yii2 extension which allows to get sections at administrator's panel without creation controllers and views dynamically.",
+    "keywords": ["yii", "yii2", "fake", "controller", "fakecontroller", "extension", "component"],
+    "homepage": "https://github.com/demmonico/yii2-fakecontroller",
+    "license": "MIT",
+    "authors": [
+        {"name": "demmonico", "email": "demmonico@gmail.com"}
+    ],
+    "require": {
+        "php": ">5.5.0",
+        "yiisoft/yii2": "~2.0.0",
+
+        "demmonico/yii2-helpers": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "demmonico\\fakecontroller\\": "src"
+        }
+    }
+}
